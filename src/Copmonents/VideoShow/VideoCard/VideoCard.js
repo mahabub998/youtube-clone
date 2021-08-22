@@ -1,15 +1,17 @@
 import React from 'react'
+import './VideoCard.css';
 import AccountCircleOutlinedIcon from '@material-ui/icons/AccountCircleOutlined';
 
   
 
-function VideoCard({image,title,channel,views,timestamp,chanelImg}) {
+function VideoCard(props) {
+  const {image,title,channel,views,timestamp,chanelImg} = props.video;
     return (
         <div className="videoCard">
-            <img src={image} alt="" />
+            <img className="videoCard_thumbnail"  src={image} alt="" />
             <div className="videoCard_info">
-              <AccountCircleOutlinedIcon className="video-avatar" alt={channel} src={chanelImg}/>
-            <div className="video=text">
+              <AccountCircleOutlinedIcon className="video_avatar" alt={channel} src={chanelImg}/>
+            <div className="videoCard_text">
               <h4>{title}</h4>
               <p>{channel}</p>
               <p>{views}  {timestamp}</p>

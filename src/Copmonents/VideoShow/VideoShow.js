@@ -2,6 +2,7 @@ import React from 'react';
 import './VideoShow.css';
 import VideoCard from './VideoCard/VideoCard';
 
+
 const videoDescriptions = [
     {
         title:"become a web developer in 10 mimits",
@@ -63,9 +64,10 @@ function VideoShow() {
     return (
         <div className="videoShow">
             <h2>Recommended</h2>
-            <div className="videoShow">
-          {
-             videoDescriptions.map( video => <VideoCard video={video}></VideoCard>)
+            <div className="videoShow_videos">
+        
+            {
+                videoDescriptions.map( video => <VideoCard video={video}></VideoCard>)  
             }
          
          
