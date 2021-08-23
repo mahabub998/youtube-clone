@@ -5,7 +5,9 @@ import AccountCircleOutlinedIcon from '@material-ui/icons/AccountCircleOutlined'
   
 
 function VideoCard(props) {
-  const {image,title,channel,views,timestamp,chanelImg} = props.video;
+  const {image,title,channel,views,timestamp,chanelImg,duration} = props.video;
+   
+console.log(duration)
     return (
         <div className="videoCard">
             <img className="videoCard_thumbnail"  src={image} alt="" />
