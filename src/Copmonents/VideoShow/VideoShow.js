@@ -19,7 +19,7 @@ const videoDescriptions = [
       views: "25m views",
       timestamp:"4 days ago",
       channelImg:"https://i.ibb.co/F6jp222/mahabub.png",
-      channel:"https://www.youtube.com/watch?v=knad62JxBTY",
+      channel:"mahabub",
       image:"https://i.ibb.co/RSqGqgH/download3.jpg"
 
   },
