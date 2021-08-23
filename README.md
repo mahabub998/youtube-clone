@@ -1,10 +1,8 @@
-# Getting Started with Create React App
+❖ YouTube Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🔗 Live Link : https://vibrant-meitner-5b56d2.netlify.app/
 
-## Available Scripts
-
-In the project directory, you can run:
+## this is a youTube clone project
 
 ### `yarn start`
 
